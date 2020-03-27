@@ -32,7 +32,20 @@ body {
 	padding: 0 2rem 2rem;
 }
 
+.topNav {
+	/* background: blue; */
+	display: flex;
+	flex-direction: column-reverse;
+	/* align-items: center; */
+	/* align-content: center; */
+	/* justify-content: center; */
+	/* justify-content: space-between; */
+}
+
 .heading {
+	/* background: green; */
+
+	align-self: center;
 	font-family: "Montserrat", Arial, sans-serif;
 	font-size: 4rem;
 	font-weight: 500;
@@ -44,6 +57,13 @@ body {
 
 .heading span {
 	display: block;
+}
+
+.profile {
+	background: blue;
+	width: 45px;
+	height: 45px;
+	margin-left: auto;
 }
 
 .gallery {
